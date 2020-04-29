@@ -17,7 +17,7 @@ def torgb(x):
         else:
                 return (0,0,0)
 
-scrolltext1 = "HELLO WORLD    "
+scrolltext1 = "HELLO WORLD      "
 mapped1 = map(lambda x: [[j for j in i] for i in font.font[x]], scrolltext1)
 restext = [sum(i,[]) for i in zip(*mapped1)]
 
